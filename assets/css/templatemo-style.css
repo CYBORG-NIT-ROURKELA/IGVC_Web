@@ -13,13 +13,21 @@ body {
   font-style: normal;
 }
 
-#particle-js {
-  background: url('assets/images/bot.jpg') no-repeat center center;
+#particles-js {
+  background: url('../../assets/images/bot.jpg') no-repeat center center;
   background-size: cover;
+  /*background:#111;*/
+  height : 100vh;
   text-align: center;
   vertical-align: middle;
-  padding-top: 120px;
-  padding-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.particles-js-canvas-el{
+  position: absolute; 
+  text-align: center;
 }
 
 .rofl {
