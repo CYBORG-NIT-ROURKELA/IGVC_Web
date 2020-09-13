@@ -26,7 +26,7 @@ body {
 }
 
 .particles-js-canvas-el{
-  position: absolute; 
+  position: absolute;
   text-align: center;
 }
 
@@ -43,6 +43,13 @@ font-weight: 700;
 .social {
   padding: 0% 2%;
 }
+
+/* button */
+
+
+
+
+
 
 /* FLIP CARDS */
 
@@ -67,7 +74,7 @@ font-weight: 700;
 .flip > .back {
   display: block;
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition-duration: 3.5s;
+  transition-duration: 2s;
   transition-property: transform, opacity;
 }
 .flip > .front {
