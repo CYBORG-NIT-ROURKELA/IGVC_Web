@@ -11,7 +11,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-style: normal;
-}  
+}
 
 #particle-js {
   background: url('assets/images/bot.jpg') no-repeat center center;
@@ -266,21 +266,16 @@ a:hover { text-decoration: none; }
     border-color: transparent;
   }
 .navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus { 
-  background-color: transparent 
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent
 }
 .site-logo {
   height: 68px;
   width: auto;
 }
 
-<<<<<<< Updated upstream
-/* home section */  
-.tm-home {
-=======
 /* home section */
 /* .tm-home {
->>>>>>> Stashed changes
   background: url('../images/home-bg.jpg') no-repeat center center;
   background-size: cover;
   color: #ffffff;
@@ -663,15 +658,9 @@ a:hover { text-decoration: none; }
           transition: all 0.4s ease-in;
 }
 .social-icon li a:hover {
-<<<<<<< Updated upstream
-  background: #a4c639;
-  color: #ffffff;
-} 
-=======
   background: #ffffff;
   color: #a4c639;
 }
->>>>>>> Stashed changes
 
 /* footer section */
 footer {
@@ -713,11 +702,11 @@ footer hr { width: 80px; }
 @media (max-width: 767px) {
   .site-logo {
     height: 50px;
-    padding-left: 5px;    
+    padding-left: 5px;
   }
   .tm-about-logo { font-size: 36px; }
   .tm-home-header { font-size: 32px; }
-  
+
 }
 
 @media (max-width: 480px) {
