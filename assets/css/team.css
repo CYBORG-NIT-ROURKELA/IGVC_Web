@@ -1,0 +1,96 @@
+#team1{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway',sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	color: #777;
+}
+
+#team1 h1{
+	font-size: 36px;
+	color: #555;
+	font-weight: bold;
+}
+#team1 h3{
+	font-size: 24px;
+	color: #333;
+	font-weight: bold;
+}
+
+#team1 header{
+	padding-top: 10px;
+	background-color: #cccccc;
+	height: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.row img{
+	margin-top: -50px;
+}
+
+#team1 img{
+	border-radius: 50%;
+	width: 70%;
+	height: 70%;
+}
+
+#team1 i{
+	font-size: 26px;
+	color: #555;
+	margin: 0 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+#team1 p{
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+
+#team1 .card{
+	margin-bottom: 50px;
+	border-radius: 0;
+	transition: all 0.3s ease-in;
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+}
+
+#team1 .card:hover{
+	color: #fff;
+	border-radius: 5px;
+	border:none;
+	box-shadow: 5px 5px 10px #9E9E99E;
+}
+
+#team1 .card:hover h3,#team1 .card:hover i{
+	color: #fff;
+}
+
+.row .card{
+	margin-top: 65px;
+	box-shadow: 5px 5px 15px #e74c3c;
+}
+
+.iso-box .card{
+	box-shadow: 5px 5px 15px #A4C339;
+}
+
+.row .card:hover{
+	background: #e74c3c;
+}
+
+.iso-box .card:hover{
+	background: #A4C339;
+}
+
+.mt-3 {
+	color: #5DADE2;
+}
