@@ -28,7 +28,7 @@
 	position: relative;
 }
 
-.row img{
+.row img[class!='img-responsive']{
 	margin-top: -50px;
 }
 
