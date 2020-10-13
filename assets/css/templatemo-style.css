@@ -905,6 +905,7 @@ a:hover { text-decoration: none; }
 /* contact section */
 .tm-contact {
     background: url('../images/contact-bg.jpg') no-repeat;
+    opacity: 90%;
     background-size: cover;
     background-position: center;
     padding-top: 100px;
