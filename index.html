@@ -21,6 +21,8 @@
 
   <link rel="stylesheet" href="assets/css/home.css">
 
+  <link rel="stylesheet"  href="assets/css/scroll.css">
+
   <script src="https://kit.fontawesome.com/5ca7d30588.js" crossorigin="anonymous"></script>
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
@@ -61,9 +63,10 @@
         <ul class="nav navbar-nav navbar-right main-navigation">
           <li><a href="#home" class="smoothScroll">HOME</a></li>
           <li><a href="#about" class="smoothScroll">ABOUT IGVC</a></li>
-          <li><a href="#service" class="smoothScroll">SUBSYSTEMS</a></li>
           <li><a href="#cyborg" class="smoothScroll">ABOUT CYBORG</a></li>
-          <li><a href="#team" class="smoothScroll">TEAM</a></li>
+          <li><a href="#service" class="smoothScroll">SUBSYSTEMS</a></li>
+          <li><a href="team.html" class="smoothScroll">TEAM</a></li>
+          <li><a href="#testimonial" class="smoothScroll">TESTIMONIALS</a></li>
           <li><a href="#contact" class="smoothScroll">CONTACT</a></li>
         </ul>
       </div>
@@ -74,26 +77,32 @@
   <!-- home section -->
 
   <div id="particles-js">
+    <section id="home" class="tm-home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h1 class="tm-home-logo rofl" style="color: #94b629;">IGV</h1>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-sm-12">
-          <h1 class="tm-home-logo rofl" style="color: #94b629;">IGV</h1>
+            <h3 class="tm-home-header rofl-lol" style="color: #000000;">Intelligent Ground Vehicle</h3>
 
-          <h3 class="tm-home-header rofl-lol" style="color: #000000;">Intelligent Ground Vehicle</h3>
+            <h2 class="tm-home-header rofl" style="color: #000000;">Cyborg NITR</h2>
 
-          <h2 class="tm-home-header rofl" style="color: #000000;">Cyborg NITR</h2>
+            <br> <br> <br> <br>
+            <br> <br> <br> <br> <br>
+              
+            <!--a class="btn btn-dark" href="#about" role="button" style="color:black;">SCROLL DOWN <i class="fas fa-arrow-circle-down"></i></a-->
 
-          <br> <br> <br> <br>
-          <a class="btn btn-dark" href="#about" role="button" style="color:black;">SCROLL DOWN <i class="fas fa-arrow-circle-down"></i></a>
+            <!-- <button type="button" class="btn btn-outline-dark btn-lg"> <a href="#about" class="butt"> GET STARTED <i class="fas fa-arrow-circle-down"></i> </a></button> -->
 
-          <!-- <button type="button" class="btn btn-outline-dark btn-lg"> <a href="#about" class="butt"> GET STARTED <i class="fas fa-arrow-circle-down"></i> </a></button> -->
-
+          </div>
         </div>
       </div>
-    </div>
-
+    </section>
   </div>
+  
+  <section id="section10" class="demo">
+    <a href="#about" class="smoothScroll"><span></span>Scroll</a>
+  </section>
 
   <!-- about section -->
   <section id="about" class="tm-about">
@@ -115,71 +124,7 @@
     </div>
   </section>
 
-
-  <!-- service section -->
-  <section id="service" class="tm-service">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-sm-12">
-          <h2>Our Subsystems</h2> <br> <br> <br> <br>
-        </div>
-
-        <div class="col-lg-6">
-
-
-          <div class="flip">
-            <div class="front" style="background-image: url(assets/images/my/software.jpg); background-size: 200px 250px; opacity: 0.9;">
-              <h1 class="text-shadow flipping">Software Subsystem</hi>
-            </div>
-            <div class="back">
-              <h3>We design intelligence.</h3> <br> <br>
-              <p style="color: #333333 ; font-size: 13px;">The main aim of the software subsystem is to develop modular and error-free software, to get the vehicles working for challenging tasks.</p>
-
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-lg-6">
-          <div class="flip">
-            <div class="front" style="background-image: url(assets/images/my/electronics.jpg); background-size: 200px 250px; opacity: 0.9;">
-              <h1 class="text-shadow flipping">Electronics Subsystem</hi>
-            </div>
-            <div class="back">
-              <h3>We build connections.</h3> <br> <br>
-              <p style="color: #333333 ; font-size: 13px;">The main aim of the electronics subsystem is to make the bridge between the software stack of the vehicle and the outside world.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="flip">
-            <div class="front" style="background-image: url(assets/images/my/mechanical.jpg); background-size: 200px 250px; opacity: 0.9;">
-              <h1 class="text-shadow flipping">Mechanical Subsystem</hi>
-            </div>
-            <div class="back">
-              <h3>We build from scratch.</h3> <br> <br>
-              <p style="color: #333333 ; font-size: 13px;">The goal of the mechanical subsystem is to sketch a modular and portable design in Solidworks and deliver full potential to all the components of the vehicle.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="flip">
-            <div class="front" style="background-image: url(assets/images/my/web.jpg); background-size: 200px 250px; opacity: 0.9;">
-              <h1 class="text-shadow flipping">Web Development</hi>
-            </div>
-            <div class="back">
-              <h3>We write codes.</h3> <br> <br>
-              <p style="color: #333333 ; font-size: 13px;">Good tools make website development quicker and easier to maintain than if you did everything by hand.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
+  <!-- about cyborg-->
   <section id="cyborg" class="tm-about">
     <div class="container">
       <div class="row">
@@ -199,82 +144,156 @@
     </div>
   </section>
 
-  <!-- home section -->
-  <section id="team" class="tm-team">
-    <div class="team-title">
-      <h2>Meet the team.</h2>
-    </div>
+
+  <!-- service section -->
+  <section id="service" class="tm-service">
     <div class="container">
       <div class="row">
-        <div class="container-fluid">
-          <div class="col-md-2 col-sm-1"></div>
-          <div class="col-md-6 col-sm-10">
-            <div class="media wow fadeInUp" data-wow-delay="0.3s">
-              <div class="media-object pull-left">
-                <img src="assets/images/team1.jpg" class="img-responsive" alt="team">
-              </div>
-              <div class="media-body border-right">
-                <h3 class="media-heading">Biswajeet Sahoo</h3>
-                <h4 class="tm-team-member-heading-2">Full Stack Developer</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-10">
-            <div class="media wow fadeInUp" data-wow-delay="0.6s">
-              <div class="media-object pull-left">
-                <img src="assets/images/team4.jpg" class="img-responsive" alt="team">
-              </div>
-              <div class="media-body">
-                <h3 class="media-heading">Risita Jena</h3>
-                <h4 class="tm-team-member-heading-2">Electronics Subsystem</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-10">
-            <div class="media wow fadeInUp" data-wow-delay="0.9s">
-              <div class="media-object pull-left">
-                <img src="assets/images/team3.jpg" class="img-responsive" alt="team">
-              </div>
-              <div class="media-body border-right">
-                <h3 class="media-heading">Krishna Kumar</h3>
-                <h4 class="tm-team-member-heading-2">Mechanical Subsystem</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 col-sm-2"></div>
-          <div class="col-md-6 col-sm-10">
-            <div class="media wow fadeInUp" data-wow-delay="1s">
-              <div class="media-object pull-left">
-                <img src="assets/images/team2.jpg" class="img-responsive" alt="team">
-              </div>
-              <div class="media-body border-right">
-                <h3 class="media-heading">Kamaljeet Sahoo</h3>
-                <h4 class="tm-team-member-heading-2">Software Subsystem</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-              </div>
+        <div class="col-md-12 col-sm-12">
+          <h2>Our Subsystems</h2> <br> <br> <br> <br>
+        </div>
 
+        <div class="col-lg-6">
+
+          <div class="wow fadeInUp" data-wow-delay="0.3s">
+            <div class="flip">
+              <div class="front" style="background-image: url(assets/images/my/software.jpg); background-size: 200px 250px; opacity: 0.9;">
+                <h1 class="text-shadow flipping">Software Subsystem</h1>
+              </div>
+              <div class="back">
+                <h3>We design intelligence.</h3> <br> <br>
+                <p style="color: #333333 ; font-size: 13px;">The main aim of the software subsystem is to develop modular and error-free software, to get the vehicles working for challenging tasks.</p>
+
+              </div>
             </div>
           </div>
-
-
 
         </div>
+
+        <div class="col-lg-6">
+          <div class="wow fadeInUp" data-wow-delay="0.6s">
+            <div class="flip">
+              <div class="front" style="background-image: url(assets/images/my/electronics.jpg); background-size: 200px 250px; opacity: 0.9;">
+                <h1 class="text-shadow flipping">Electronics Subsystem</h1>
+              </div>
+              <div class="back">
+                <h3>We build connections.</h3> <br> <br>
+                <p style="color: #333333 ; font-size: 13px;">The main aim of the electronics subsystem is to make the bridge between the software stack of the vehicle and the outside world.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="wow fadeInUp" data-wow-delay="0.9s">
+            <div class="flip">
+              <div class="front" style="background-image: url(assets/images/my/mechanical.jpg); background-size: 200px 250px; opacity: 0.9;">
+                <h1 class="text-shadow flipping">Mechanical Subsystem</h1>
+              </div>
+              <div class="back">
+                <h3>We build from scratch.</h3> <br> <br>
+                <p style="color: #333333 ; font-size: 13px;">The goal of the mechanical subsystem is to sketch a modular and portable design in Solidworks and deliver full potential to all the components of the vehicle.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="wow fadeInUp" data-wow-delay="1.2s">
+            <div class="flip">
+              <div class="front" style="background-image: url(assets/images/my/web.jpg); background-size: 200px 250px; opacity: 0.9;">
+                <h1 class="text-shadow flipping">Web Development</h1>
+              </div>
+              <div class="back">
+                <h3>We write codes.</h3> <br> <br>
+                <p style="color: #333333 ; font-size: 13px;">Good tools make website development quicker and easier to maintain than if you did everything by hand.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-
-      <div class="wrap">
-        <a href="team.html#home" class="button" style="text-align: center;padding-top: 18px;">Know all the members</a>
-      </div>
-
-
-      <br> <br> <br> <br> <br> <br>
-
     </div>
-    </div>
-
   </section>
+
+  <!-- testimonial section -->
+  <div id="testimonial">
+    <section id="team" class="tm-team">
+      <div class="team-title">
+        <h2>Testimonials</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="container-fluid">
+            <div class="col-md-2 col-sm-1"></div>
+            <div class="col-md-6 col-sm-10">
+              <div class="media wow fadeInUp" data-wow-delay="0.3s">
+                <div class="media-object pull-left">
+                  <img src="assets/images/team1.jpg" class="img-responsive" alt="team">
+                </div>
+                <div class="media-body border-right">
+                  <h3 class="media-heading">Biswajeet Sahoo</h3>
+                  <h4 class="tm-team-member-heading-2">Full Stack Developer</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-10">
+              <div class="media wow fadeInUp" data-wow-delay="0.6s">
+                <div class="media-object pull-left">
+                  <img src="assets/images/team4.jpg" class="img-responsive" alt="team">
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading">Risita Jena</h3>
+                  <h4 class="tm-team-member-heading-2">Electronics Subsystem</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-10">
+              <div class="media wow fadeInUp" data-wow-delay="0.9s">
+                <div class="media-object pull-left">
+                  <img src="assets/images/team3.jpg" class="img-responsive" alt="team">
+                </div>
+                <div class="media-body border-right">
+                  <h3 class="media-heading">Krishna Kumar</h3>
+                  <h4 class="tm-team-member-heading-2">Mechanical Subsystem</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-2"></div>
+            <div class="col-md-6 col-sm-10">
+              <div class="media wow fadeInUp" data-wow-delay="1s">
+                <div class="media-object pull-left">
+                  <img src="assets/images/team2.jpg" class="img-responsive" alt="team">
+                </div>
+                <div class="media-body border-right">
+                  <h3 class="media-heading">Kamaljeet Sahoo</h3>
+                  <h4 class="tm-team-member-heading-2">Software Subsystem</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                </div>
+
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+
+        <div class="wrap">
+          <a href="team.html#home" class="button" style="text-align: center;padding-top: 18px;">Meet Our Amazing Team</a>
+        </div>
+
+
+        <br> <br> <br> <br> <br> <br>
+
+      </div>
+      </div>
+
+    </section>
+  </div>
 
 
   <!-- contact section -->
@@ -335,6 +354,7 @@
             <li class="wow bounceIn social" data-wow-delay="0.6s"><a href="https://www.facebook.com/cyborg.nitr/"><i class="fab fa-facebook-f fa-2x"></i></a></li>
             <li class="wow bounceIn social" data-wow-delay="0.9s"><a href="https://www.linkedin.com/company/cyborg-official-robotics-club-of-nit-rourkela/"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
             <li class="wow bounceIn social" data-wow-delay="1.2s"><a href="https://www.youtube.com/channel/UCnmvTxutxWHcuRELKOjYPnQ"><i class="fab fa-youtube fa-2x"></i></a></li>
+            <li class="wow bounceIn social" data-wow-delay="1.5s"><a href="https://github.com/CYBORG-NIT-ROURKELA"><i class="fab fa-github fa-2x"></i></a></li>
           </ul>
         </div>
       </div>
@@ -387,6 +407,7 @@ VANTA.DOTS({
   <script src="assets/js/particles.js"></script>
 
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/scroll.js"></script>
   <script src="assets/js/smoothscroll.js"></script>
   <script src="assets/js/jquery.nav.js"></script>
   <script src="assets/js/isotope.js"></script>
