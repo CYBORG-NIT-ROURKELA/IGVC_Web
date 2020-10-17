@@ -1,3 +1,7 @@
+.contain{
+  position: absolute;
+  z-index: 9999;
+}
 .iso-box img{
   margin-top: 0;
 }
